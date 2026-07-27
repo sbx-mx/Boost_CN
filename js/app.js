@@ -19,14 +19,14 @@ function avg(rows,key){const v=rows.map(r=>Number(r[key])).filter(Number.isFinit
 function compactMoney(v){return Math.abs(v)>=1e6?`$${(v/1e6).toFixed(1)}M`:Math.abs(v)>=1e3?`$${(v/1e3).toFixed(0)}k`:money.format(v)}
 function fmtDate(v){if(!v)return "";const [y,m,d]=String(v).split("-");return d&&m&&y?`${d}/${m}/${y.slice(-2)}`:v}
 function toast(msg){const el=$("#toast");el.textContent=msg;el.classList.add("show");setTimeout(()=>el.classList.remove("show"),2200)}
-async function getJSON(path){const r=await fetch(path);if(!r.ok)throw new Error(`${path}: ${r.status}`);return r.json()}
+async function getJSON(path){const r=await fetch(path,{cache:"no-store"});if(!r.ok)throw new Error(`${path}: ${r.status}`);return r.json()}
 async function load(){
  state.manifest=await getJSON("./data/manifest-data.json");
  const chunks=await Promise.all(state.manifest.chunks.map(x=>getJSON(`./data/${x}`)));
  state.allRows=chunks.flat();state.rows=state.allRows.filter(r=>r.Valid!==false);
  [state.at,state.adt]=await Promise.all([getJSON("./data/base-at.json"),getJSON("./data/item-adt.json")]);
  buildSlicers();bind();restoreSettings();renderAll();
- $("#syncStatus").textContent=`${number.format(state.manifest.sourceRowsIncludingHeader)} filas Excel · ${number.format(state.rows.length)} registros`;
+ $("#syncStatus").textContent=`Motor Excel · ${number.format(state.rows.length)} ventas · ${number.format(state.manifest.baseATDataRows||state.at.length)} AT · ${number.format(state.manifest.itemADTDataRows||state.adt.length)} productividad`;
  const ud=state.manifest.updatedDate||"";if(ud){const [y,m,d]=ud.split("-");$("#updatedDate").textContent=`Actualizado: ${d}/${m}`;}
  if("serviceWorker" in navigator)navigator.serviceWorker.register("./service-worker.js").catch(console.error);
 }

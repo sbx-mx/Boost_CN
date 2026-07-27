@@ -1,46 +1,28 @@
-BOOST CN v9.0 - AUDITORIA TECNICA
+BOOST CN v10.0 - AUDITORÍA DEL MOTOR EXCEL
 
-Fuente: Boost_CN.xlsx
-Lectura: por nombre de pestaña y encabezado; sin posiciones fijas.
+FUENTE ÚNICA
+- Archivo: data/Boost_CN.xlsx
+- SHA-256: 8dedfdf5fafbd89f558a58c8fd28016c9ccf43f0fc9b7a0e65e677f606feffe1
+- Pestañas leídas: 5 (Instruccion, Base_Boost_CN, Condicion, Base_AT, Item_ADT)
 
-Base_Boost_CN
-- Filas incluyendo encabezado: 21,687
-- Registros cargados: 21,686
-- Registros válidos: 21,686
-- Registros descartados: 0
-- Fecha máxima válida: 18/07/2026
-- Unidades: 54,306
-- Venta calculada: $2,084,396.00 MXN
-- Incremento frente a la versión anterior: 3,535 registros.
+MÉTRICAS CONSERVADAS
+- Venta, Unidades, AT Real, AT Año Anterior, AT Presupuesto, TPLH e Item/ADT.
 
-Condicion
-- Filas incluyendo encabezado: 20
-- Productos: 19
+RESULTADO
+- Registros de venta: 26859 (26859 válidos)
+- Base AT: 432 (432 relacionados)
+- Productividad: 360 (360 relacionados)
 - Productos sin relación: 0
-- Duplicados normalizados: 0
-- Valores Venta no numéricos: 0
-- Cruce normalizado por espacios, mayúsculas y acentos.
-- Venta calculada = Unidad Vendida x Precio Venta.
+- Excepciones registradas: 27
+- Unidades: 69490.0
+- Venta calculada: 2626913.0
 
-Base_AT
-- Filas fuente incluyendo encabezado: 289
-- Registros únicos publicados: 248
-- Llave principal: Ceco + Semana + Año
-- 40 llaves repetidas consolidadas conservando el registro más completo.
+NORMALIZACIÓN BASE_AT
+- Modo: shifted_semana_ceco_tienda
+- Reparación aplicada: Sí
+- Confianza: 100.00%
 
-Item_ADT
-- Filas incluyendo encabezado: 289
-- Registros publicados: 288
-- TPLH e item/ADT validados desde sus encabezados.
-
-Validaciones técnicas
-- Se generaron 6 archivos JSON de registros.
-- Manifest y resumen de auditoría sincronizados en versión 8.1.0.
-- Service Worker actualizado para precargar dinámicamente todos los chunks indicados por el manifest.
-- JSON y JavaScript validados sin errores de sintaxis.
-- Rutas relativas compatibles con GitHub Pages.
-- Se conservaron filtros, KPIs, cálculos, rankings, tablas y gráficas.
-- Navegación simplificada a Inicio e integrada al encabezado.
-- Desempeño por Franja integrado al final de Inicio sin retirar su funcionalidad.
-- Caché PWA incrementado a boost-cn-v9-0-20260724.
-- Leyenda de diseño agregada una sola vez en el pie de página.
+ACTUALIZACIÓN
+- Reemplazar únicamente data/Boost_CN.xlsx.
+- GitHub Actions regenera y valida todos los JSON automáticamente.
+- index.html no contiene datos ni requiere edición para actualizar métricas.

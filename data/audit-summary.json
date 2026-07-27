@@ -1,34 +1,139 @@
 {
-  "version": "8.1.0",
-  "sourceFile": "Boost_CN.xlsx",
-  "generatedAt": "2026-07-24T02:23:05",
-  "updatedDate": "2026-07-18",
+  "version": "10.0.0",
+  "engine": "excel-only",
+  "sourceFile": "data/Boost_CN.xlsx",
+  "sourceSha256": "8dedfdf5fafbd89f558a58c8fd28016c9ccf43f0fc9b7a0e65e677f606feffe1",
+  "generatedAt": "2026-07-27T14:29:22-04:00",
+  "updatedDate": "2026-07-26",
+  "sheetsRead": [
+    "Instruccion",
+    "Base_Boost_CN",
+    "Condicion",
+    "Base_AT",
+    "Item_ADT"
+  ],
+  "sheetCount": 5,
+  "sheetProfile": {
+    "Instruccion": {
+      "rowsIncludingHeader": 12,
+      "dataRows": 11,
+      "columns": 3,
+      "headers": [
+        "Pestaña",
+        "Encabezado",
+        "Instrucción"
+      ]
+    },
+    "Base_Boost_CN": {
+      "rowsIncludingHeader": 26860,
+      "dataRows": 26859,
+      "columns": 12,
+      "headers": [
+        "Region",
+        "DM",
+        "Año",
+        "Semana",
+        "Dia",
+        "DayPart",
+        "CeCo",
+        "Tienda",
+        "Categoria",
+        "#Producto",
+        "Producto",
+        "Unidad Vendida"
+      ]
+    },
+    "Condicion": {
+      "rowsIncludingHeader": 20,
+      "dataRows": 19,
+      "columns": 3,
+      "headers": [
+        "Producto",
+        "Item",
+        "Venta"
+      ]
+    },
+    "Base_AT": {
+      "rowsIncludingHeader": 433,
+      "dataRows": 432,
+      "columns": 9,
+      "headers": [
+        "División",
+        "DM",
+        "Año",
+        "Semana",
+        "Ceco",
+        "Tienda",
+        "AT R",
+        "AT AA",
+        "AT ppto"
+      ]
+    },
+    "Item_ADT": {
+      "rowsIncludingHeader": 361,
+      "dataRows": 360,
+      "columns": 6,
+      "headers": [
+        "CeCo",
+        "Tienda",
+        "Semana",
+        "DM",
+        "TPLH",
+        "item/ADT"
+      ]
+    }
+  },
   "chunks": [
     "records-001.json",
     "records-002.json",
     "records-003.json",
     "records-004.json",
     "records-005.json",
-    "records-006.json"
+    "records-006.json",
+    "records-007.json"
   ],
-  "sourceRowsIncludingHeader": 21687,
-  "dataRows": 21686,
-  "loadedRows": 21686,
-  "validRows": 21686,
+  "sourceRowsIncludingHeader": 26860,
+  "dataRows": 26859,
+  "loadedRows": 26859,
+  "validRows": 26859,
   "discardedRows": 0,
   "conditionRowsIncludingHeader": 20,
   "conditionDataRows": 19,
   "conditionDuplicateKeys": 0,
   "conditionInvalidSales": 0,
   "unmatchedProducts": 0,
-  "baseATRowsIncludingHeader": 289,
-  "baseATDataRows": 248,
-  "atDuplicateKeys": 40,
-  "itemADTRowsIncludingHeader": 289,
-  "itemADTDataRows": 288,
-  "exceptionCount": 40,
+  "baseATRowsIncludingHeader": 433,
+  "baseATSourceRows": 432,
+  "baseATDataRows": 432,
+  "baseATValidRows": 432,
+  "baseATMatchedRows": 432,
+  "baseATIncompleteMetricRows": 26,
+  "atDuplicateKeys": 0,
+  "baseATLayout": {
+    "mode": "shifted_semana_ceco_tienda",
+    "repaired": true,
+    "confidence": 1.0,
+    "standardScore": 0.0,
+    "shiftedScore": 1.0
+  },
+  "itemADTRowsIncludingHeader": 361,
+  "itemADTSourceRows": 360,
+  "itemADTDataRows": 360,
+  "itemADTValidRows": 360,
+  "itemADTMatchedRows": 360,
+  "itemADTDuplicateKeys": 0,
+  "exceptionCount": 27,
   "totals": {
-    "units": 54306.0,
-    "sales": 2084396.0
-  }
+    "units": 69490.0,
+    "sales": 2626913.0
+  },
+  "metrics": [
+    "Venta",
+    "UnidadVendida",
+    "ATR",
+    "ATAA",
+    "ATPpto",
+    "TPLH",
+    "ItemADT"
+  ]
 }

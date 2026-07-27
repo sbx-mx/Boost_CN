@@ -1,0 +1,70 @@
+{
+  "Instruccion": {
+    "rowsIncludingHeader": 12,
+    "dataRows": 11,
+    "columns": 3,
+    "headers": [
+      "Pestaña",
+      "Encabezado",
+      "Instrucción"
+    ]
+  },
+  "Base_Boost_CN": {
+    "rowsIncludingHeader": 26860,
+    "dataRows": 26859,
+    "columns": 12,
+    "headers": [
+      "Region",
+      "DM",
+      "Año",
+      "Semana",
+      "Dia",
+      "DayPart",
+      "CeCo",
+      "Tienda",
+      "Categoria",
+      "#Producto",
+      "Producto",
+      "Unidad Vendida"
+    ]
+  },
+  "Condicion": {
+    "rowsIncludingHeader": 20,
+    "dataRows": 19,
+    "columns": 3,
+    "headers": [
+      "Producto",
+      "Item",
+      "Venta"
+    ]
+  },
+  "Base_AT": {
+    "rowsIncludingHeader": 433,
+    "dataRows": 432,
+    "columns": 9,
+    "headers": [
+      "División",
+      "DM",
+      "Año",
+      "Semana",
+      "Ceco",
+      "Tienda",
+      "AT R",
+      "AT AA",
+      "AT ppto"
+    ]
+  },
+  "Item_ADT": {
+    "rowsIncludingHeader": 361,
+    "dataRows": 360,
+    "columns": 6,
+    "headers": [
+      "CeCo",
+      "Tienda",
+      "Semana",
+      "DM",
+      "TPLH",
+      "item/ADT"
+    ]
+  }
+}

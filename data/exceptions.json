@@ -1,1 +1,248 @@
-[{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38333|25|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38339|25|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38368|25|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38401|25|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38456|25|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38515|25|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38604|25|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38862|25|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38894|25|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"43193|25|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38333|26|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38339|26|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38368|26|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38401|26|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38456|26|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38515|26|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38604|26|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38862|26|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38894|26|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"43193|26|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38333|27|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38339|27|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38368|27|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38401|27|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38456|27|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38515|27|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38604|27|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38862|27|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38894|27|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"43193|27|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38333|28|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38339|28|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38368|28|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38401|28|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38456|28|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38515|28|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38604|28|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38862|28|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"38894|28|2026","count":2},{"sheet":"Base_AT","error":"Duplicado CeCo+Semana+Año consolidado","key":"43193|28|2026","count":2}]
+[
+  {
+    "sheet": "Base_AT",
+    "type": "schema_repair",
+    "message": "Encabezados desplazados detectados; Semana, CeCo y Tienda fueron realineados.",
+    "details": {
+      "mode": "shifted_semana_ceco_tienda",
+      "repaired": true,
+      "confidence": 1.0,
+      "standardScore": 0.0,
+      "shiftedScore": 1.0
+    }
+  },
+  {
+    "sheet": "Base_AT",
+    "row": 224,
+    "warning": "Comparativo AT incompleto; se conservaron las métricas disponibles",
+    "key": "43194|25|2026",
+    "missingMetrics": [
+      "ATAA"
+    ]
+  },
+  {
+    "sheet": "Base_AT",
+    "row": 225,
+    "warning": "Comparativo AT incompleto; se conservaron las métricas disponibles",
+    "key": "43194|26|2026",
+    "missingMetrics": [
+      "ATAA"
+    ]
+  },
+  {
+    "sheet": "Base_AT",
+    "row": 226,
+    "warning": "Comparativo AT incompleto; se conservaron las métricas disponibles",
+    "key": "43194|27|2026",
+    "missingMetrics": [
+      "ATAA"
+    ]
+  },
+  {
+    "sheet": "Base_AT",
+    "row": 227,
+    "warning": "Comparativo AT incompleto; se conservaron las métricas disponibles",
+    "key": "43194|28|2026",
+    "missingMetrics": [
+      "ATAA"
+    ]
+  },
+  {
+    "sheet": "Base_AT",
+    "row": 228,
+    "warning": "Comparativo AT incompleto; se conservaron las métricas disponibles",
+    "key": "43194|29|2026",
+    "missingMetrics": [
+      "ATAA"
+    ]
+  },
+  {
+    "sheet": "Base_AT",
+    "row": 229,
+    "warning": "Comparativo AT incompleto; se conservaron las métricas disponibles",
+    "key": "43194|30|2026",
+    "missingMetrics": [
+      "ATAA"
+    ]
+  },
+  {
+    "sheet": "Base_AT",
+    "row": 230,
+    "warning": "Comparativo AT incompleto; se conservaron las métricas disponibles",
+    "key": "43195|25|2026",
+    "missingMetrics": [
+      "ATAA"
+    ]
+  },
+  {
+    "sheet": "Base_AT",
+    "row": 231,
+    "warning": "Comparativo AT incompleto; se conservaron las métricas disponibles",
+    "key": "43195|26|2026",
+    "missingMetrics": [
+      "ATAA"
+    ]
+  },
+  {
+    "sheet": "Base_AT",
+    "row": 232,
+    "warning": "Comparativo AT incompleto; se conservaron las métricas disponibles",
+    "key": "43195|27|2026",
+    "missingMetrics": [
+      "ATAA"
+    ]
+  },
+  {
+    "sheet": "Base_AT",
+    "row": 233,
+    "warning": "Comparativo AT incompleto; se conservaron las métricas disponibles",
+    "key": "43195|28|2026",
+    "missingMetrics": [
+      "ATAA"
+    ]
+  },
+  {
+    "sheet": "Base_AT",
+    "row": 234,
+    "warning": "Comparativo AT incompleto; se conservaron las métricas disponibles",
+    "key": "43195|29|2026",
+    "missingMetrics": [
+      "ATAA"
+    ]
+  },
+  {
+    "sheet": "Base_AT",
+    "row": 235,
+    "warning": "Comparativo AT incompleto; se conservaron las métricas disponibles",
+    "key": "43195|30|2026",
+    "missingMetrics": [
+      "ATAA"
+    ]
+  },
+  {
+    "sheet": "Base_AT",
+    "row": 308,
+    "warning": "Comparativo AT incompleto; se conservaron las métricas disponibles",
+    "key": "43152|25|2026",
+    "missingMetrics": [
+      "ATAA"
+    ]
+  },
+  {
+    "sheet": "Base_AT",
+    "row": 309,
+    "warning": "Comparativo AT incompleto; se conservaron las métricas disponibles",
+    "key": "43152|26|2026",
+    "missingMetrics": [
+      "ATAA"
+    ]
+  },
+  {
+    "sheet": "Base_AT",
+    "row": 310,
+    "warning": "Comparativo AT incompleto; se conservaron las métricas disponibles",
+    "key": "43152|27|2026",
+    "missingMetrics": [
+      "ATAA"
+    ]
+  },
+  {
+    "sheet": "Base_AT",
+    "row": 311,
+    "warning": "Comparativo AT incompleto; se conservaron las métricas disponibles",
+    "key": "43152|28|2026",
+    "missingMetrics": [
+      "ATAA"
+    ]
+  },
+  {
+    "sheet": "Base_AT",
+    "row": 312,
+    "warning": "Comparativo AT incompleto; se conservaron las métricas disponibles",
+    "key": "43152|29|2026",
+    "missingMetrics": [
+      "ATAA"
+    ]
+  },
+  {
+    "sheet": "Base_AT",
+    "row": 313,
+    "warning": "Comparativo AT incompleto; se conservaron las métricas disponibles",
+    "key": "43152|30|2026",
+    "missingMetrics": [
+      "ATAA"
+    ]
+  },
+  {
+    "sheet": "Base_AT",
+    "row": 332,
+    "warning": "Comparativo AT incompleto; se conservaron las métricas disponibles",
+    "key": "38401|25|2026",
+    "missingMetrics": [
+      "ATPpto"
+    ]
+  },
+  {
+    "sheet": "Base_AT",
+    "row": 333,
+    "warning": "Comparativo AT incompleto; se conservaron las métricas disponibles",
+    "key": "38401|26|2026",
+    "missingMetrics": [
+      "ATPpto"
+    ]
+  },
+  {
+    "sheet": "Base_AT",
+    "row": 368,
+    "warning": "Comparativo AT incompleto; se conservaron las métricas disponibles",
+    "key": "43193|25|2026",
+    "missingMetrics": [
+      "ATAA"
+    ]
+  },
+  {
+    "sheet": "Base_AT",
+    "row": 369,
+    "warning": "Comparativo AT incompleto; se conservaron las métricas disponibles",
+    "key": "43193|26|2026",
+    "missingMetrics": [
+      "ATAA"
+    ]
+  },
+  {
+    "sheet": "Base_AT",
+    "row": 370,
+    "warning": "Comparativo AT incompleto; se conservaron las métricas disponibles",
+    "key": "43193|27|2026",
+    "missingMetrics": [
+      "ATAA"
+    ]
+  },
+  {
+    "sheet": "Base_AT",
+    "row": 371,
+    "warning": "Comparativo AT incompleto; se conservaron las métricas disponibles",
+    "key": "43193|28|2026",
+    "missingMetrics": [
+      "ATAA"
+    ]
+  },
+  {
+    "sheet": "Base_AT",
+    "row": 372,
+    "warning": "Comparativo AT incompleto; se conservaron las métricas disponibles",
+    "key": "43193|29|2026",
+    "missingMetrics": [
+      "ATAA"
+    ]
+  },
+  {
+    "sheet": "Base_AT",
+    "row": 373,
+    "warning": "Comparativo AT incompleto; se conservaron las métricas disponibles",
+    "key": "43193|30|2026",
+    "missingMetrics": [
+      "ATAA"
+    ]
+  }
+]
