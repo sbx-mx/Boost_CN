@@ -1,1 +1,56 @@
+name: Actualizar datos desde Excel
 
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - data/Boost_CN.xlsx
+      - tools/process_excel.py
+      - tools/validate_excel_engine.py
+      - .github/workflows/actualizar-excel.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: boost-cn-excel-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Compilar Excel completo
+        run: python tools/process_excel.py
+
+      - name: Validar métricas y relaciones
+        run: python tools/validate_excel_engine.py
+
+      - name: Validar diferencias
+        run: git diff --check
+
+      - name: Publicar datos generados
+        run: |
+          git add AUDITORIA_TECNICA.txt data/*.json
+          if git diff --cached --quiet; then
+            echo "El Excel ya está sincronizado."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Actualizar dashboard desde Boost_CN.xlsx"
+          git push
