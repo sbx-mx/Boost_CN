@@ -2,8 +2,8 @@
   "version": "10.0.0",
   "engine": "excel-only",
   "sourceFile": "data/Boost_CN.xlsx",
-  "sourceSha256": "8dedfdf5fafbd89f558a58c8fd28016c9ccf43f0fc9b7a0e65e677f606feffe1",
-  "generatedAt": "2026-07-27T18:36:18+00:00",
+  "sourceSha256": "32d1d54caaebca7d31546ce2910ce02f8fc2a09f515348ab05474f289d61abff",
+  "generatedAt": "2026-07-27T18:47:49+00:00",
   "updatedDate": "2026-07-26",
   "sheetsRead": [
     "Instruccion",

@@ -2,7 +2,7 @@ BOOST CN v10.0 - AUDITORÍA DEL MOTOR EXCEL
 
 FUENTE ÚNICA
 - Archivo: data/Boost_CN.xlsx
-- SHA-256: 8dedfdf5fafbd89f558a58c8fd28016c9ccf43f0fc9b7a0e65e677f606feffe1
+- SHA-256: 32d1d54caaebca7d31546ce2910ce02f8fc2a09f515348ab05474f289d61abff
 - Pestañas leídas: 5 (Instruccion, Base_Boost_CN, Condicion, Base_AT, Item_ADT)
 
 MÉTRICAS CONSERVADAS
